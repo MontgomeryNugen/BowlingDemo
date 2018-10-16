@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="golf.js"></script>
+    <title>Golf Simulator</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Golf Simulator App</h1>
+
+    <h2>Your 18 Holes</h2>
+
+    <p id="holes"> </p>
+    <p>SUM: <input type="text" id="sum"></p>
+    <p>AVG: <input type="text" id="avg"></p>
+    <p id="overUnder"></p>
+    <button class="btn btn-primary" onclick="fillArraySumAndAvg()">And SWING !!!</button>
+
+</body>
+
+</html>
